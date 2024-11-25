@@ -1,0 +1,1304 @@
+diff --git a/node_modules/expo-audio/android/build/.transforms/1356d055d0dfdb6998b1bf148a0d14ff/results.bin b/node_modules/expo-audio/android/build/.transforms/1356d055d0dfdb6998b1bf148a0d14ff/results.bin
+new file mode 100644
+index 0000000..0d259dd
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/.transforms/1356d055d0dfdb6998b1bf148a0d14ff/results.bin
+@@ -0,0 +1 @@
++o/classes
+diff --git a/node_modules/expo-audio/android/build/.transforms/1356d055d0dfdb6998b1bf148a0d14ff/transformed/classes/classes_dex/classes.dex b/node_modules/expo-audio/android/build/.transforms/1356d055d0dfdb6998b1bf148a0d14ff/transformed/classes/classes_dex/classes.dex
+new file mode 100644
+index 0000000..7d5186f
+Binary files /dev/null and b/node_modules/expo-audio/android/build/.transforms/1356d055d0dfdb6998b1bf148a0d14ff/transformed/classes/classes_dex/classes.dex differ
+diff --git a/node_modules/expo-audio/android/build/generated/source/buildConfig/debug/expo/modules/audio/BuildConfig.java b/node_modules/expo-audio/android/build/generated/source/buildConfig/debug/expo/modules/audio/BuildConfig.java
+new file mode 100644
+index 0000000..5e9d16d
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/generated/source/buildConfig/debug/expo/modules/audio/BuildConfig.java
+@@ -0,0 +1,10 @@
++/**
++ * Automatically generated file. DO NOT MODIFY
++ */
++package expo.modules.audio;
++
++public final class BuildConfig {
++  public static final boolean DEBUG = Boolean.parseBoolean("true");
++  public static final String LIBRARY_PACKAGE_NAME = "expo.modules.audio";
++  public static final String BUILD_TYPE = "debug";
++}
+diff --git a/node_modules/expo-audio/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml b/node_modules/expo-audio/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml
+new file mode 100644
+index 0000000..f841210
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="expo.modules.audio" >
++
++    <uses-sdk android:minSdkVersion="24" />
++
++    <uses-permission android:name="android.permission.RECORD_AUDIO" />
++    <uses-permission
++        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
++        android:maxSdkVersion="30" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/expo-audio/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json b/node_modules/expo-audio/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json
+new file mode 100644
+index 0000000..181dd5c
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json
+@@ -0,0 +1,18 @@
++{
++  "version": 3,
++  "artifactType": {
++    "type": "AAPT_FRIENDLY_MERGED_MANIFESTS",
++    "kind": "Directory"
++  },
++  "applicationId": "expo.modules.audio",
++  "variantName": "debug",
++  "elements": [
++    {
++      "type": "SINGLE",
++      "filters": [],
++      "attributes": [],
++      "outputFile": "AndroidManifest.xml"
++    }
++  ],
++  "elementType": "File"
++}
+\ No newline at end of file
+diff --git a/node_modules/expo-audio/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties b/node_modules/expo-audio/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties
+new file mode 100644
+index 0000000..1211b1e
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties
+@@ -0,0 +1,6 @@
++aarFormatVersion=1.0
++aarMetadataVersion=1.0
++minCompileSdk=1
++minCompileSdkExtension=0
++minAndroidGradlePluginVersion=1.0.0
++coreLibraryDesugaringEnabled=false
+diff --git a/node_modules/expo-audio/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json b/node_modules/expo-audio/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+new file mode 100644
+index 0000000..9e26dfe
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+@@ -0,0 +1 @@
++{}
+\ No newline at end of file
+diff --git a/node_modules/expo-audio/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar b/node_modules/expo-audio/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar
+new file mode 100644
+index 0000000..50d6a03
+Binary files /dev/null and b/node_modules/expo-audio/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar differ
+diff --git a/node_modules/expo-audio/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar b/node_modules/expo-audio/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar
+new file mode 100644
+index 0000000..74ffd25
+Binary files /dev/null and b/node_modules/expo-audio/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar differ
+diff --git a/node_modules/expo-audio/android/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt b/node_modules/expo-audio/android/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/expo-audio/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties b/node_modules/expo-audio/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+new file mode 100644
+index 0000000..f2d0920
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+@@ -0,0 +1 @@
++#Mon Nov 25 20:36:04 CET 2024
+diff --git a/node_modules/expo-audio/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml b/node_modules/expo-audio/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+new file mode 100644
+index 0000000..a8ae6a1
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/build/generated/res/resValues/debug"/></dataSet><mergedItems/></merger>
+\ No newline at end of file
+diff --git a/node_modules/expo-audio/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml b/node_modules/expo-audio/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+new file mode 100644
+index 0000000..f3c06d4
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/debug/jniLibs"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/expo-audio/android/build/intermediates/incremental/mergeDebugShaders/merger.xml b/node_modules/expo-audio/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+new file mode 100644
+index 0000000..da0ba3b
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/debug/shaders"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/expo-audio/android/build/intermediates/incremental/packageDebugAssets/merger.xml b/node_modules/expo-audio/android/build/intermediates/incremental/packageDebugAssets/merger.xml
+new file mode 100644
+index 0000000..42d81b6
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/intermediates/incremental/packageDebugAssets/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/assets"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/debug/assets"/></dataSet><dataSet config="generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/build/intermediates/shader_assets/debug/compileDebugShaders/out"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/expo-audio/android/build/intermediates/java_res/debug/processDebugJavaRes/out/META-INF/expo-audio_debug.kotlin_module b/node_modules/expo-audio/android/build/intermediates/java_res/debug/processDebugJavaRes/out/META-INF/expo-audio_debug.kotlin_module
+new file mode 100644
+index 0000000..52cc5bb
+Binary files /dev/null and b/node_modules/expo-audio/android/build/intermediates/java_res/debug/processDebugJavaRes/out/META-INF/expo-audio_debug.kotlin_module differ
+diff --git a/node_modules/expo-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/expo/modules/audio/BuildConfig.class b/node_modules/expo-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/expo/modules/audio/BuildConfig.class
+new file mode 100644
+index 0000000..b192a17
+Binary files /dev/null and b/node_modules/expo-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/expo/modules/audio/BuildConfig.class differ
+diff --git a/node_modules/expo-audio/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt b/node_modules/expo-audio/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt
+new file mode 100644
+index 0000000..78ac5b8
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt
+@@ -0,0 +1,2 @@
++R_DEF: Internal format may change without notice
++local
+diff --git a/node_modules/expo-audio/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt b/node_modules/expo-audio/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt
+new file mode 100644
+index 0000000..7560b51
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt
+@@ -0,0 +1,17 @@
++1<?xml version="1.0" encoding="utf-8"?>
++2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++3    package="expo.modules.audio" >
++4
++5    <uses-sdk android:minSdkVersion="24" />
++6
++7    <uses-permission android:name="android.permission.RECORD_AUDIO" />
++7-->/Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/AndroidManifest.xml:2:3-69
++7-->/Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/AndroidManifest.xml:2:20-66
++8    <uses-permission
++8-->/Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/AndroidManifest.xml:3:3-105
++9        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
++9-->/Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/AndroidManifest.xml:3:20-75
++10        android:maxSdkVersion="30" />
++10-->/Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/AndroidManifest.xml:3:76-102
++11
++12</manifest>
+diff --git a/node_modules/expo-audio/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml b/node_modules/expo-audio/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml
+new file mode 100644
+index 0000000..f841210
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="expo.modules.audio" >
++
++    <uses-sdk android:minSdkVersion="24" />
++
++    <uses-permission android:name="android.permission.RECORD_AUDIO" />
++    <uses-permission
++        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
++        android:maxSdkVersion="30" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/expo-audio/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json b/node_modules/expo-audio/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json
+new file mode 100644
+index 0000000..0637a08
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json
+@@ -0,0 +1 @@
++[]
+\ No newline at end of file
+diff --git a/node_modules/expo-audio/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt b/node_modules/expo-audio/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt
+new file mode 100644
+index 0000000..08f4ebe
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt
+@@ -0,0 +1 @@
++0 Warning/Error
+\ No newline at end of file
+diff --git a/node_modules/expo-audio/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar b/node_modules/expo-audio/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar
+new file mode 100644
+index 0000000..ca5c71d
+Binary files /dev/null and b/node_modules/expo-audio/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar differ
+diff --git a/node_modules/expo-audio/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt b/node_modules/expo-audio/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt
+new file mode 100644
+index 0000000..cf3d90f
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt
+@@ -0,0 +1 @@
++expo.modules.audio
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab
+new file mode 100644
+index 0000000..180960a
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream
+new file mode 100644
+index 0000000..6f138be
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len
+new file mode 100644
+index 0000000..d8e0f3d
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.len
+new file mode 100644
+index 0000000..9e27f73
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at
+new file mode 100644
+index 0000000..243b79f
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i
+new file mode 100644
+index 0000000..92d1d9b
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab
+new file mode 100644
+index 0000000..06f6453
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream
+new file mode 100644
+index 0000000..c88c42e
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len
+new file mode 100644
+index 0000000..013ea45
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len
+new file mode 100644
+index 0000000..9911af5
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at
+new file mode 100644
+index 0000000..ecd6c70
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i
+new file mode 100644
+index 0000000..7952db6
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab
+new file mode 100644
+index 0000000..075bd94
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream
+new file mode 100644
+index 0000000..c88c42e
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len
+new file mode 100644
+index 0000000..013ea45
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len
+new file mode 100644
+index 0000000..9911af5
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at
+new file mode 100644
+index 0000000..12e10f5
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i
+new file mode 100644
+index 0000000..7952db6
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab
+new file mode 100644
+index 0000000..7c64a84
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream
+new file mode 100644
+index 0000000..0183e48
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream
+@@ -0,0 +1 @@
++,expo/modules/audio/AudioPermissionsException5expo/modules/audio/GetAudioInputNotSupportedException5expo/modules/audio/SetAudioInputNotSupportedException.expo/modules/audio/DeviceInfoNotFoundException2expo/modules/audio/PreferredInputNotFoundExceptionexpo/modules/audio/AudioModuleGexpo/modules/audio/AudioModule$definition$lambda$48$$inlined$OnCreate$1Lexpo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$1Lexpo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$2Lexpo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$3/expo/modules/audio/AudioModule$definition$1$3$1Lexpo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$4Lexpo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$5Lexpo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$6Lexpo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$7Lexpo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$8Lexpo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$9Mexpo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$10Mexpo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$11Mexpo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$12Yexpo/modules/audio/AudioModule$definition$lambda$48$$inlined$OnActivityEntersBackground$1Yexpo/modules/audio/AudioModule$definition$lambda$48$$inlined$OnActivityEntersForeground$1/expo/modules/audio/AudioModule$definition$1$8$1Hexpo/modules/audio/AudioModule$definition$lambda$48$$inlined$OnDestroy$11expo/modules/audio/AudioModule$definition$1$9$1$1Texpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Constructor$1Texpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Constructor$2Texpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Constructor$3Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$11expo/modules/audio/AudioModule$definition$1$9$3$1Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$21expo/modules/audio/AudioModule$definition$1$9$4$1Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$3Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$41expo/modules/audio/AudioModule$definition$1$9$6$1Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$51expo/modules/audio/AudioModule$definition$1$9$7$1Lexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$1Lexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$21expo/modules/audio/AudioModule$definition$1$9$8$1Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$61expo/modules/audio/AudioModule$definition$1$9$9$1Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$72expo/modules/audio/AudioModule$definition$1$9$10$1Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$82expo/modules/audio/AudioModule$definition$1$9$11$1Lexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$3Lexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$4Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$9Lexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$5Lexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$62expo/modules/audio/AudioModule$definition$1$9$14$1Rexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$102expo/modules/audio/AudioModule$definition$1$9$15$1Rexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$112expo/modules/audio/AudioModule$definition$1$9$16$1Rexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$122expo/modules/audio/AudioModule$definition$1$9$17$1Rexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$132expo/modules/audio/AudioModule$definition$1$9$18$1Lexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$7Lexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$82expo/modules/audio/AudioModule$definition$1$9$19$1Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$1Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$2Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$32expo/modules/audio/AudioModule$definition$1$9$20$1Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$4Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$5Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$6Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$7Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$82expo/modules/audio/AudioModule$definition$1$9$22$1Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$9Rexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$10Rexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$11Vexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$AsyncFunction$1Vexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$AsyncFunction$2Vexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$AsyncFunction$32expo/modules/audio/AudioModule$definition$1$9$24$1Rexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$12Rexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$13Rexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$14Rexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$15Rexpo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$16Dexpo/modules/audio/AudioModule$definition$lambda$48$$inlined$Class$1Texpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Constructor$1Texpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Constructor$2Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Property$1Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Property$2Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Property$3Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Property$4Vexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$1Vexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$2Vexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$3Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$1Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$2Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$3Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$4Vexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$4Vexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$5Vexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$6Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$5Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$6Vexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$7Vexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$8Vexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$9Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$7Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$8Qexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$9Rexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$10Rexpo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$11Dexpo/modules/audio/AudioModule$definition$lambda$48$$inlined$Class$2*expo/modules/audio/AudioModule$runOnMain$1(expo/modules/audio/AudioModule$Companionexpo/modules/audio/AudioPlayer3expo/modules/audio/AudioPlayer$addPlayerListeners$1Hexpo/modules/audio/AudioPlayer$addPlayerListeners$1$onIsPlayingChanged$1Hexpo/modules/audio/AudioPlayer$addPlayerListeners$1$onIsLoadingChanged$1Lexpo/modules/audio/AudioPlayer$addPlayerListeners$1$onPlaybackStateChanged$11expo/modules/audio/AudioPlayer$sendPlayerUpdate$23expo/modules/audio/AudioPlayer$createVisualizer$2$17expo/modules/audio/AudioPlayer$sharedObjectDidRelease$1(expo/modules/audio/AudioPlayer$Companion expo/modules/audio/AudioPlayer$2 expo/modules/audio/AudioPlayerKt expo/modules/audio/AudioRecorder"expo/modules/audio/AudioRecorderKtexpo/modules/audio/AudioSourceexpo/modules/audio/AudioMode#expo/modules/audio/InterruptionMode#expo/modules/audio/RecordingOptions&expo/modules/audio/AndroidOutputFormat3expo/modules/audio/AndroidOutputFormat$WhenMappings&expo/modules/audio/AndroidAudioEncoder3expo/modules/audio/AndroidAudioEncoder$WhenMappingsexpo/modules/audio/AudioUtilsKt                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+\ No newline at end of file
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len
+new file mode 100644
+index 0000000..00fd0c3
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len
+new file mode 100644
+index 0000000..4852ea7
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at
+new file mode 100644
+index 0000000..7975e12
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i
+new file mode 100644
+index 0000000..232f032
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab
+new file mode 100644
+index 0000000..f3c99f0
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream
+new file mode 100644
+index 0000000..43eb560
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len
+new file mode 100644
+index 0000000..c32b442
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.len
+new file mode 100644
+index 0000000..a9f80ae
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.values.at b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.values.at
+new file mode 100644
+index 0000000..33c7d6c
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.values.at differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i
+new file mode 100644
+index 0000000..6a4f2e4
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab
+new file mode 100644
+index 0000000..1fc202b
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream
+new file mode 100644
+index 0000000..07a8f8a
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len
+new file mode 100644
+index 0000000..c664f81
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len
+new file mode 100644
+index 0000000..8fe89d8
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at
+new file mode 100644
+index 0000000..ff66f7e
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i
+new file mode 100644
+index 0000000..a2683d6
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab
+new file mode 100644
+index 0000000..de97ae4
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream
+new file mode 100644
+index 0000000..568790b
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len
+new file mode 100644
+index 0000000..d8e0f3d
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len
+new file mode 100644
+index 0000000..9e27f73
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at
+new file mode 100644
+index 0000000..4e24f1a
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i
+new file mode 100644
+index 0000000..84f021f
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab
+new file mode 100644
+index 0000000..1d1ed58
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream
+new file mode 100644
+index 0000000..19a1c30
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len
+new file mode 100644
+index 0000000..a3d0573
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.len
+new file mode 100644
+index 0000000..eb0b8a0
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at
+new file mode 100644
+index 0000000..9e7f467
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i
+new file mode 100644
+index 0000000..2893825
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab
+new file mode 100644
+index 0000000..d27b593
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream
+new file mode 100644
+index 0000000..0958cc7
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len
+new file mode 100644
+index 0000000..af433d5
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.len
+new file mode 100644
+index 0000000..003bc0e
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at
+new file mode 100644
+index 0000000..422dbee
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i
+new file mode 100644
+index 0000000..f991f4f
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab
+new file mode 100644
+index 0000000..888a92d
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab
+@@ -0,0 +1,2 @@
++6
++0
+\ No newline at end of file
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab
+new file mode 100644
+index 0000000..fbaca1d
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream
+new file mode 100644
+index 0000000..568790b
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len
+new file mode 100644
+index 0000000..d8e0f3d
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.len
+new file mode 100644
+index 0000000..9e27f73
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at
+new file mode 100644
+index 0000000..87c4282
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i
+new file mode 100644
+index 0000000..84f021f
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab
+new file mode 100644
+index 0000000..3d175d2
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream
+new file mode 100644
+index 0000000..3d5fe7a
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len
+new file mode 100644
+index 0000000..fa902fa
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len
+new file mode 100644
+index 0000000..9e27f73
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at
+new file mode 100644
+index 0000000..76a7284
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i
+new file mode 100644
+index 0000000..b7dc911
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab
+new file mode 100644
+index 0000000..b824c39
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream
+new file mode 100644
+index 0000000..54e608f
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len
+new file mode 100644
+index 0000000..1087a8d
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len
+new file mode 100644
+index 0000000..b7015d0
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at
+new file mode 100644
+index 0000000..62d52d6
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i
+new file mode 100644
+index 0000000..5a979dd
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i.len b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i.len
+new file mode 100644
+index 0000000..131e265
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i.len differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/last-build.bin b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/last-build.bin
+new file mode 100644
+index 0000000..6c4021b
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/cacheable/last-build.bin differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin
+new file mode 100644
+index 0000000..d2170ed
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin differ
+diff --git a/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/local-state/build-history.bin b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/local-state/build-history.bin
+new file mode 100644
+index 0000000..a84f641
+Binary files /dev/null and b/node_modules/expo-audio/android/build/kotlin/compileDebugKotlin/local-state/build-history.bin differ
+diff --git a/node_modules/expo-audio/android/build/outputs/logs/manifest-merger-debug-report.txt b/node_modules/expo-audio/android/build/outputs/logs/manifest-merger-debug-report.txt
+new file mode 100644
+index 0000000..0d94381
+--- /dev/null
++++ b/node_modules/expo-audio/android/build/outputs/logs/manifest-merger-debug-report.txt
+@@ -0,0 +1,26 @@
++-- Merging decision tree log ---
++manifest
++ADDED from /Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/AndroidManifest.xml:1:1-4:12
++INJECTED from /Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/AndroidManifest.xml:1:1-4:12
++	package
++		INJECTED from /Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/AndroidManifest.xml
++	xmlns:android
++		ADDED from /Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/AndroidManifest.xml:1:11-69
++uses-permission#android.permission.RECORD_AUDIO
++ADDED from /Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/AndroidManifest.xml:2:3-69
++	android:name
++		ADDED from /Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/AndroidManifest.xml:2:20-66
++uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
++ADDED from /Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/AndroidManifest.xml:3:3-105
++	android:maxSdkVersion
++		ADDED from /Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/AndroidManifest.xml:3:76-102
++	android:name
++		ADDED from /Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/AndroidManifest.xml:3:20-75
++uses-sdk
++INJECTED from /Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
++INJECTED from /Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/AndroidManifest.xml
++INJECTED from /Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/AndroidManifest.xml
++	android:targetSdkVersion
++		INJECTED from /Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/AndroidManifest.xml
++	android:minSdkVersion
++		INJECTED from /Users/michalsek/Documents/work/expo-audio-test/node_modules/expo-audio/android/src/main/AndroidManifest.xml
+diff --git a/node_modules/expo-audio/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin b/node_modules/expo-audio/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin
+new file mode 100644
+index 0000000..4b7c2f9
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/META-INF/expo-audio_debug.kotlin_module b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/META-INF/expo-audio_debug.kotlin_module
+new file mode 100644
+index 0000000..52cc5bb
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/META-INF/expo-audio_debug.kotlin_module differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AndroidAudioEncoder$WhenMappings.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AndroidAudioEncoder$WhenMappings.class
+new file mode 100644
+index 0000000..884af7d
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AndroidAudioEncoder$WhenMappings.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AndroidAudioEncoder.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AndroidAudioEncoder.class
+new file mode 100644
+index 0000000..d55e81a
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AndroidAudioEncoder.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AndroidOutputFormat$WhenMappings.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AndroidOutputFormat$WhenMappings.class
+new file mode 100644
+index 0000000..29f689c
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AndroidOutputFormat$WhenMappings.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AndroidOutputFormat.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AndroidOutputFormat.class
+new file mode 100644
+index 0000000..4483621
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AndroidOutputFormat.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioMode.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioMode.class
+new file mode 100644
+index 0000000..54a271d
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioMode.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$Companion.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$Companion.class
+new file mode 100644
+index 0000000..06cebbb
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$Companion.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$3$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$3$1.class
+new file mode 100644
+index 0000000..5d9f59d
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$3$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$8$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$8$1.class
+new file mode 100644
+index 0000000..ae302e3
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$8$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$1$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$1$1.class
+new file mode 100644
+index 0000000..ac5afe8
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$1$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$10$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$10$1.class
+new file mode 100644
+index 0000000..eef10c4
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$10$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$11$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$11$1.class
+new file mode 100644
+index 0000000..24e8a89
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$11$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$14$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$14$1.class
+new file mode 100644
+index 0000000..39652be
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$14$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$15$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$15$1.class
+new file mode 100644
+index 0000000..08ee4f7
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$15$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$16$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$16$1.class
+new file mode 100644
+index 0000000..a6d067f
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$16$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$17$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$17$1.class
+new file mode 100644
+index 0000000..4f6410b
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$17$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$18$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$18$1.class
+new file mode 100644
+index 0000000..8573f8e
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$18$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$19$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$19$1.class
+new file mode 100644
+index 0000000..91ae459
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$19$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$20$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$20$1.class
+new file mode 100644
+index 0000000..64c1841
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$20$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$22$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$22$1.class
+new file mode 100644
+index 0000000..e7bd258
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$22$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$24$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$24$1.class
+new file mode 100644
+index 0000000..7c5f781
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$24$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$3$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$3$1.class
+new file mode 100644
+index 0000000..1dbdb94
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$3$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$4$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$4$1.class
+new file mode 100644
+index 0000000..019c65a
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$4$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$6$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$6$1.class
+new file mode 100644
+index 0000000..72e3a49
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$6$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$7$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$7$1.class
+new file mode 100644
+index 0000000..c97b9fc
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$7$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$8$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$8$1.class
+new file mode 100644
+index 0000000..e099928
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$8$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$9$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$9$1.class
+new file mode 100644
+index 0000000..44a3ac5
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$1$9$9$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$1.class
+new file mode 100644
+index 0000000..d252969
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$10.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$10.class
+new file mode 100644
+index 0000000..a29d953
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$10.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$11.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$11.class
+new file mode 100644
+index 0000000..37e4910
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$11.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$12.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$12.class
+new file mode 100644
+index 0000000..ccf0d49
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$12.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$2.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$2.class
+new file mode 100644
+index 0000000..696e636
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$2.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$3.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$3.class
+new file mode 100644
+index 0000000..4ef5e77
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$3.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$4.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$4.class
+new file mode 100644
+index 0000000..442cf00
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$4.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$5.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$5.class
+new file mode 100644
+index 0000000..b56c64a
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$5.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$6.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$6.class
+new file mode 100644
+index 0000000..b4342de
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$6.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$7.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$7.class
+new file mode 100644
+index 0000000..dff60a7
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$7.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$8.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$8.class
+new file mode 100644
+index 0000000..4a17a9e
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$8.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$9.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$9.class
+new file mode 100644
+index 0000000..c2abaad
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$AsyncFunction$9.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$Class$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$Class$1.class
+new file mode 100644
+index 0000000..745cf49
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$Class$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$Class$2.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$Class$2.class
+new file mode 100644
+index 0000000..0ac1f53
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$Class$2.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$OnActivityEntersBackground$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$OnActivityEntersBackground$1.class
+new file mode 100644
+index 0000000..8fc6aee
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$OnActivityEntersBackground$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$OnActivityEntersForeground$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$OnActivityEntersForeground$1.class
+new file mode 100644
+index 0000000..6f49cba
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$OnActivityEntersForeground$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$OnCreate$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$OnCreate$1.class
+new file mode 100644
+index 0000000..20a7ebe
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$OnCreate$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$OnDestroy$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$OnDestroy$1.class
+new file mode 100644
+index 0000000..573f90a
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$$inlined$OnDestroy$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$AsyncFunction$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$AsyncFunction$1.class
+new file mode 100644
+index 0000000..6d1496e
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$AsyncFunction$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$AsyncFunction$2.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$AsyncFunction$2.class
+new file mode 100644
+index 0000000..61cb6f5
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$AsyncFunction$2.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$AsyncFunction$3.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$AsyncFunction$3.class
+new file mode 100644
+index 0000000..06b39a3
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$AsyncFunction$3.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Constructor$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Constructor$1.class
+new file mode 100644
+index 0000000..d1b0af7
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Constructor$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Constructor$2.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Constructor$2.class
+new file mode 100644
+index 0000000..5742d8c
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Constructor$2.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Constructor$3.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Constructor$3.class
+new file mode 100644
+index 0000000..c93f21e
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Constructor$3.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$1.class
+new file mode 100644
+index 0000000..a76ff3c
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$10.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$10.class
+new file mode 100644
+index 0000000..ef3b18c
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$10.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$11.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$11.class
+new file mode 100644
+index 0000000..97da65f
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$11.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$12.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$12.class
+new file mode 100644
+index 0000000..a93af66
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$12.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$13.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$13.class
+new file mode 100644
+index 0000000..967171e
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$13.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$14.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$14.class
+new file mode 100644
+index 0000000..493c746
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$14.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$15.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$15.class
+new file mode 100644
+index 0000000..07e8ba1
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$15.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$16.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$16.class
+new file mode 100644
+index 0000000..3e95aa6
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$16.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$2.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$2.class
+new file mode 100644
+index 0000000..2ec48ed
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$2.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$3.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$3.class
+new file mode 100644
+index 0000000..741c3d6
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$3.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$4.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$4.class
+new file mode 100644
+index 0000000..6c6244a
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$4.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$5.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$5.class
+new file mode 100644
+index 0000000..642d29f
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$5.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$6.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$6.class
+new file mode 100644
+index 0000000..ee8a2c0
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$6.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$7.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$7.class
+new file mode 100644
+index 0000000..b41f8a8
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$7.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$8.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$8.class
+new file mode 100644
+index 0000000..0eb97ed
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$8.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$9.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$9.class
+new file mode 100644
+index 0000000..74b5fed
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Function$9.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$1.class
+new file mode 100644
+index 0000000..b1e1480
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$10.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$10.class
+new file mode 100644
+index 0000000..fe8fe9b
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$10.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$11.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$11.class
+new file mode 100644
+index 0000000..8d98e83
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$11.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$12.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$12.class
+new file mode 100644
+index 0000000..1a62bba
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$12.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$13.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$13.class
+new file mode 100644
+index 0000000..21f395a
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$13.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$2.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$2.class
+new file mode 100644
+index 0000000..07cb1b5
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$2.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$3.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$3.class
+new file mode 100644
+index 0000000..6488526
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$3.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$4.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$4.class
+new file mode 100644
+index 0000000..9b759a1
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$4.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$5.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$5.class
+new file mode 100644
+index 0000000..6fa552d
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$5.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$6.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$6.class
+new file mode 100644
+index 0000000..719d144
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$6.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$7.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$7.class
+new file mode 100644
+index 0000000..ac25c43
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$7.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$8.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$8.class
+new file mode 100644
+index 0000000..2f1eff6
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$8.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$9.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$9.class
+new file mode 100644
+index 0000000..1f70cf1
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$Property$9.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$1.class
+new file mode 100644
+index 0000000..b5ded5d
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$2.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$2.class
+new file mode 100644
+index 0000000..13b1a9b
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$2.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$3.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$3.class
+new file mode 100644
+index 0000000..ac987e9
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$3.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$4.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$4.class
+new file mode 100644
+index 0000000..a322352
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$4.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$5.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$5.class
+new file mode 100644
+index 0000000..ca959bf
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$5.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$6.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$6.class
+new file mode 100644
+index 0000000..520ee39
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$6.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$7.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$7.class
+new file mode 100644
+index 0000000..dc09e2e
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$7.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$8.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$8.class
+new file mode 100644
+index 0000000..d3309de
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$33$$inlined$set$8.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$1.class
+new file mode 100644
+index 0000000..e928a2b
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$2.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$2.class
+new file mode 100644
+index 0000000..b5901ac
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$2.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$3.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$3.class
+new file mode 100644
+index 0000000..e69ffb6
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$3.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$4.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$4.class
+new file mode 100644
+index 0000000..8cfb437
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$4.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$5.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$5.class
+new file mode 100644
+index 0000000..d24dbd8
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$5.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$6.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$6.class
+new file mode 100644
+index 0000000..36bc386
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$6.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$7.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$7.class
+new file mode 100644
+index 0000000..a6478d4
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$7.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$8.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$8.class
+new file mode 100644
+index 0000000..4e194da
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$8.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$9.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$9.class
+new file mode 100644
+index 0000000..9bcccc9
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$AsyncFunction$9.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Constructor$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Constructor$1.class
+new file mode 100644
+index 0000000..f91bc28
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Constructor$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Constructor$2.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Constructor$2.class
+new file mode 100644
+index 0000000..5e90a1c
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Constructor$2.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$1.class
+new file mode 100644
+index 0000000..a6cf811
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$10.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$10.class
+new file mode 100644
+index 0000000..b837b7e
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$10.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$11.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$11.class
+new file mode 100644
+index 0000000..ded88ff
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$11.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$2.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$2.class
+new file mode 100644
+index 0000000..00fbd2b
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$2.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$3.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$3.class
+new file mode 100644
+index 0000000..a59e269
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$3.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$4.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$4.class
+new file mode 100644
+index 0000000..baeea0a
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$4.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$5.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$5.class
+new file mode 100644
+index 0000000..7c55b6c
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$5.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$6.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$6.class
+new file mode 100644
+index 0000000..f69f50e
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$6.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$7.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$7.class
+new file mode 100644
+index 0000000..777e7c5
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$7.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$8.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$8.class
+new file mode 100644
+index 0000000..587f2dd
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$8.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$9.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$9.class
+new file mode 100644
+index 0000000..6899d5f
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Function$9.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Property$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Property$1.class
+new file mode 100644
+index 0000000..155ce57
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Property$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Property$2.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Property$2.class
+new file mode 100644
+index 0000000..5b796e0
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Property$2.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Property$3.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Property$3.class
+new file mode 100644
+index 0000000..5ee0656
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Property$3.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Property$4.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Property$4.class
+new file mode 100644
+index 0000000..259172b
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$definition$lambda$48$lambda$47$$inlined$Property$4.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$runOnMain$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$runOnMain$1.class
+new file mode 100644
+index 0000000..3d6b8c4
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule$runOnMain$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule.class
+new file mode 100644
+index 0000000..50a6702
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioModule.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPermissionsException.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPermissionsException.class
+new file mode 100644
+index 0000000..7620a04
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPermissionsException.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$2.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$2.class
+new file mode 100644
+index 0000000..710162a
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$2.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$Companion.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$Companion.class
+new file mode 100644
+index 0000000..e3ef26a
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$Companion.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$addPlayerListeners$1$onIsLoadingChanged$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$addPlayerListeners$1$onIsLoadingChanged$1.class
+new file mode 100644
+index 0000000..bd72eae
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$addPlayerListeners$1$onIsLoadingChanged$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$addPlayerListeners$1$onIsPlayingChanged$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$addPlayerListeners$1$onIsPlayingChanged$1.class
+new file mode 100644
+index 0000000..d4b0b5a
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$addPlayerListeners$1$onIsPlayingChanged$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$addPlayerListeners$1$onPlaybackStateChanged$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$addPlayerListeners$1$onPlaybackStateChanged$1.class
+new file mode 100644
+index 0000000..736590d
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$addPlayerListeners$1$onPlaybackStateChanged$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$addPlayerListeners$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$addPlayerListeners$1.class
+new file mode 100644
+index 0000000..ca10c48
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$addPlayerListeners$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$createVisualizer$2$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$createVisualizer$2$1.class
+new file mode 100644
+index 0000000..b0f4609
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$createVisualizer$2$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$sendPlayerUpdate$2.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$sendPlayerUpdate$2.class
+new file mode 100644
+index 0000000..c75ea2f
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$sendPlayerUpdate$2.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$sharedObjectDidRelease$1.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$sharedObjectDidRelease$1.class
+new file mode 100644
+index 0000000..8386d2c
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer$sharedObjectDidRelease$1.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer.class
+new file mode 100644
+index 0000000..ce3566c
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayer.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayerKt.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayerKt.class
+new file mode 100644
+index 0000000..aaebb81
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioPlayerKt.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioRecorder.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioRecorder.class
+new file mode 100644
+index 0000000..75ab7a3
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioRecorder.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioRecorderKt.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioRecorderKt.class
+new file mode 100644
+index 0000000..8c3445c
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioRecorderKt.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioSource.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioSource.class
+new file mode 100644
+index 0000000..7c2e998
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioSource.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioUtilsKt.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioUtilsKt.class
+new file mode 100644
+index 0000000..90d2f4e
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/AudioUtilsKt.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/DeviceInfoNotFoundException.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/DeviceInfoNotFoundException.class
+new file mode 100644
+index 0000000..2655842
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/DeviceInfoNotFoundException.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/GetAudioInputNotSupportedException.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/GetAudioInputNotSupportedException.class
+new file mode 100644
+index 0000000..0e8b108
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/GetAudioInputNotSupportedException.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/InterruptionMode.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/InterruptionMode.class
+new file mode 100644
+index 0000000..0fa90ad
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/InterruptionMode.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/PreferredInputNotFoundException.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/PreferredInputNotFoundException.class
+new file mode 100644
+index 0000000..abb441b
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/PreferredInputNotFoundException.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/RecordingOptions.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/RecordingOptions.class
+new file mode 100644
+index 0000000..2286cf8
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/RecordingOptions.class differ
+diff --git a/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/SetAudioInputNotSupportedException.class b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/SetAudioInputNotSupportedException.class
+new file mode 100644
+index 0000000..7b92442
+Binary files /dev/null and b/node_modules/expo-audio/android/build/tmp/kotlin-classes/debug/expo/modules/audio/SetAudioInputNotSupportedException.class differ
+diff --git a/node_modules/expo-audio/android/src/main/java/expo/modules/audio/AudioModule.kt b/node_modules/expo-audio/android/src/main/java/expo/modules/audio/AudioModule.kt
+index 2046b05..babe8ff 100644
+--- a/node_modules/expo-audio/android/src/main/java/expo/modules/audio/AudioModule.kt
++++ b/node_modules/expo-audio/android/src/main/java/expo/modules/audio/AudioModule.kt
+@@ -48,6 +48,7 @@ class AudioModule : Module() {
+   private var staysActiveInBackground = false
+   private var audioEnabled = true
+   private var shouldRouteThroughEarpiece = false
++  private var prevAudioVolume = -1
+ 
+   override fun definition() = ModuleDefinition {
+     Name("ExpoAudio")
+@@ -244,18 +245,33 @@ class AudioModule : Module() {
+         }
+       }
+ 
+-      Function("play") { ref: AudioPlayer ->
++      Function("play") { ref: AudioPlayer, loud: Boolean ->
+         if (!audioEnabled) {
+           Log.e(TAG, "Audio has been disabled. Re-enable to start playing")
+           return@Function
+         }
++
+         appContext.mainQueue.launch {
++
++          if (loud) {
++            prevAudioVolume = audioManager.getStreamVolume(AudioManager.STREAM_MUSIC)
++            audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, audioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC), 0)
++          } else {
++            prevAudioVolume = -1
++          }
++
+           ref.player.play()
+         }
+       }
+ 
+       Function("pause") { ref: AudioPlayer ->
+         appContext.mainQueue.launch {
++
++          if (prevAudioVolume != -1) {
++            audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, prevAudioVolume, 0)
++            prevAudioVolume = -1
++          }
++
+           ref.player.pause()
+         }
+       }
+diff --git a/node_modules/expo-audio/build/AudioModule.types.d.ts b/node_modules/expo-audio/build/AudioModule.types.d.ts
+index b6064eb..bc8cc79 100644
+--- a/node_modules/expo-audio/build/AudioModule.types.d.ts
++++ b/node_modules/expo-audio/build/AudioModule.types.d.ts
+@@ -77,7 +77,7 @@ export declare class AudioPlayer extends SharedObject<AudioEvents> {
+     /**
+      * Start playing audio.
+      */
+-    play(): void;
++    play(loud: boolean): void;
+     /**
+      * Pauses the player.
+      */
+diff --git a/node_modules/expo-audio/build/AudioModule.web.d.ts b/node_modules/expo-audio/build/AudioModule.web.d.ts
+index 0105342..5837d1f 100644
+--- a/node_modules/expo-audio/build/AudioModule.web.d.ts
++++ b/node_modules/expo-audio/build/AudioModule.web.d.ts
+@@ -26,7 +26,7 @@ export declare class AudioPlayerWeb extends globalThis.expo.SharedObject<AudioEv
+     get volume(): number;
+     set volume(value: number);
+     get currentStatus(): AudioStatus;
+-    play(): void;
++    play(loud: boolean): void;
+     pause(): void;
+     replace(source: AudioSource): void;
+     seekTo(seconds: number): Promise<void>;
+diff --git a/node_modules/expo-audio/build/AudioModule.web.js b/node_modules/expo-audio/build/AudioModule.web.js
+index 5b786b3..36c4ed0 100644
+--- a/node_modules/expo-audio/build/AudioModule.web.js
++++ b/node_modules/expo-audio/build/AudioModule.web.js
+@@ -127,7 +127,7 @@ export class AudioPlayerWeb extends globalThis.expo.SharedObject {
+     get currentStatus() {
+         return getStatusFromMedia(this.media, this.id);
+     }
+-    play() {
++    play(loud) {
+         this.media.play();
+         this.isPlaying = true;
+     }
+diff --git a/node_modules/expo-audio/ios/AudioModule.swift b/node_modules/expo-audio/ios/AudioModule.swift
+index c4773c6..8251c14 100644
+--- a/node_modules/expo-audio/ios/AudioModule.swift
++++ b/node_modules/expo-audio/ios/AudioModule.swift
+@@ -120,7 +120,7 @@ public class AudioModule: Module {
+         player.currentStatus()
+       }
+ 
+-      Function("play") { player in
++      Function("play") { (player, loud: Bool) in
+         guard sessionIsActive else {
+           return
+         }
+diff --git a/node_modules/expo-audio/src/AudioModule.types.ts b/node_modules/expo-audio/src/AudioModule.types.ts
+index 4df9e9e..a8c2180 100644
+--- a/node_modules/expo-audio/src/AudioModule.types.ts
++++ b/node_modules/expo-audio/src/AudioModule.types.ts
+@@ -105,7 +105,7 @@ export declare class AudioPlayer extends SharedObject<AudioEvents> {
+   /**
+    * Start playing audio.
+    */
+-  play(): void;
++  play(loud: boolean): void;
+ 
+   /**
+    * Pauses the player.
+diff --git a/node_modules/expo-audio/src/AudioModule.web.ts b/node_modules/expo-audio/src/AudioModule.web.ts
+index ed690bc..3c1b899 100644
+--- a/node_modules/expo-audio/src/AudioModule.web.ts
++++ b/node_modules/expo-audio/src/AudioModule.web.ts
+@@ -171,7 +171,7 @@ export class AudioPlayerWeb
+     return getStatusFromMedia(this.media, this.id);
+   }
+ 
+-  play(): void {
++  play(_loud: boolean): void {
+     this.media.play();
+     this.isPlaying = true;
+   }
